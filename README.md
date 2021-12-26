@@ -6,7 +6,7 @@ The purpose of this week's challenge is to refactor existing HTML markup and CSS
   
 ![Holiday James](/christmas-james-square.jpg)
   
-![CSS styling before changes](CSS style pre.PNG)
+![CSS styling before changes](/CSS style pre.PNG)
   
   
 
