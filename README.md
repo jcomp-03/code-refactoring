@@ -4,7 +4,7 @@ The purpose of this week's challenge is to refactor existing HTML markup and CSS
 
 [Click here to go to images](/assets/images/)
   
-![CSS styling before changes]("/assets/images/CSS style post.PNG")
+![CSS styling before changes](/assets/images/CSS style post.png)
   
   
 
