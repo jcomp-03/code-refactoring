@@ -4,11 +4,7 @@ The purpose of this week's challenge is to refactor existing HTML markup and CSS
 
 [Click here to go to images](/assets/images/)
   
-![Holiday James](/christmas-james-square.jpg)
-  
-![CSS styling before changes](/CSS style pre.PNG)
-  
-  
+ 
 
 ## User Story
 
