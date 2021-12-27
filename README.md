@@ -1,6 +1,10 @@
 # Week 1 Challenge - Code Refactor for Marketing Agency
 
-The purpose of this week's challenge is to refactor existing HTML markup and CSS styling for the website of a marketing agency. In the process, I looked to optimize the HTML structure logic and the appropriateness of HTML tags for particular segments of the website, and generally organized and improved the readability of the existing codebase; additionally, I wished to improve the efficiency of the CSS styling declarations. In the CSS stylesheet, there was a significant opportunity to improve with respect to the specificity of selector statements; a lot of CSS styling was repetitive and could be generalized to decrease the total number of lines of code in the style sheet. For example, the two images below show I am able to condense 24 lines of CSS coding into just 8 (well, 9 if you include the font-family property:value declaration in the <body> styling section I added).
+The purpose of this week's challenge is to refactor existing HTML markup and CSS styling for the website of a marketing agency. In the process, I looked to optimize the HTML structure logic and the suitability of HTML tags for particular segments of the website, and generally organize and improve the readability of the existing codebase; additionally, I wished to improve the efficiency of the CSS styling declarations.
+
+Take as an example the existing HTML markup in the screenshot below.
+[HTML markup before changes] 
+What was clearly functioning as the <header> element was implemented as a <div> container. While this isn't wrong functionally, semantically the more suitable tag to use is the <header></header> tag. In the CSS stylesheet, there was a significant opportunity to improve with respect to the specificity of selector statements; a lot of CSS styling was repetitive and could be generalized to decrease the total number of lines of code in the style sheet. For example, the two images below show I am able to condense 24 lines of CSS coding into just 8 (well, 9 if you include the font-family property:value declaration in the <body> styling section I added).
 
   ### Screenshot of portion of CSS stylesheet *before* code improvement
   
