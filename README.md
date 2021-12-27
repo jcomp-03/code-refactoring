@@ -7,47 +7,20 @@ Take as an example the existing HTML markup in the screenshot below.
 ### Screenshot of portion of HTML markup *before* code improvement
 ![HTML markup before changes](/assets/images/html-pre.PNG)
 
-What was clearly functioning as the <header> element was implemented as a <div> container. While this isn't wrong functionally, semantically the more suitable tag to use is the <header></header> tag. In the CSS stylesheet, there was a significant opportunity to improve with respect to the specificity of selector statements; a lot of CSS styling was repetitive and could be generalized to decrease the total number of lines of code in the style sheet. For example, the two images below show I am able to condense 24 lines of CSS coding into just 8 (well, 9 if you include the font-family property:value declaration in the <body> styling section I added).
+What was clearly functioning as the <header> element within the <body> element was implemented as a <div> container. While this isn't wrong functionally, semantically the more suitable tag to use is the <header> tag.
 
-  ### Screenshot of portion of CSS stylesheet *before* code improvement
+Additionally, the nested <div> container was converted to a <nav> element since its purpose is to host the navigation links to sections further down on the webpage. Spacing and line returns were consolidated to improve the readability. The screenshot below shows the same section after code improvement.
+
+### Screenshot of portion of HTML markup *after* code improvement
+![HTML markup after changes](/assets/images/html-post.PNG)
+
+In the CSS style sheet, there was an opportunity to improve the specificity of selector statements; a lot of CSS styling was repetitive and could be generalized to decrease the total number of lines of code in the style sheet. For example, the two images below show I am able to condense 24 lines of CSS coding into just 8 (9 if you include the font-family property:value declaration in the <body> styling section I added).
+
+### Screenshot of portion of CSS stylesheet *before* code improvement
+![CSS styling before changes](/assets/images/css-pre.PNG)
+
+### Screenshot of same portion of CSS stylesheet *after* code improvement
+![CSS styling after changes](/assets/images/css-post.PNG)
   
- ![CSS styling before changes](/assets/images/css-pre.PNG)
-  ### Screenshot of same portion of CSS stylesheet *after* code improvement
   
-  ![CSS styling after changes](/assets/images/css-post.PNG)
-  
-  
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN I find that they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Comments were added to both the HTML markup as well as the CSS style sheet to give some more context about the changes that were made as well as to inform the code reviewer of what is happening.
