@@ -1,6 +1,6 @@
 # Week 1 Challenge - Code Refactor for Marketing Agency
 
-The purpose of this week's challenge is to refactor existing HTML markup and CSS styling for the website of a marketing agency. In the process, I looked to optimize the HTML structure logic and the suitability of HTML tags for particular segments of the website, and generally organize and improve the readability of the existing codebase; additionally, I wished to improve the efficiency of the CSS styling declarations.
+The purpose of this week's challenge is to refactor existing HTML markup and CSS styling for the website of a marketing agency. In the process, I looked to optimize the HTML structure logic and the suitability of HTML tags for particular segments of the website, and generally to organize and to improve the readability of the existing codebase; additionally, I wished to improve the efficiency of the CSS styling declarations.
 
 Take as an example the existing HTML markup in the screenshot below.
 
